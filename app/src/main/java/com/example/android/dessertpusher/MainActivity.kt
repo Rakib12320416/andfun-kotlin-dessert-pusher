@@ -39,6 +39,7 @@ class MainActivity : AppCompatActivity(), LifecycleObserver {
 
     private var revenue = 0
     private var dessertsSold = 0
+    //set a dessertTimer
     private lateinit var dessertTimer: DessertTimer
 
     // Contains all the views
