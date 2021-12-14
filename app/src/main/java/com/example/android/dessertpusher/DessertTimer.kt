@@ -79,6 +79,7 @@ class DessertTimer(lifecycle: Lifecycle) : LifecycleObserver {
     fun stopTimer() {
         // Removes all pending posts of runnable from the handler's queue, effectively stopping the
         // timer
+        //solve the rotation problem
         handler.removeCallbacks(runnable)
     }
 }

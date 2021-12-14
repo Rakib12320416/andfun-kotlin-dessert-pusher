@@ -187,6 +187,7 @@ class MainActivity : AppCompatActivity(), LifecycleObserver {
         super.onRestoreInstanceState(savedInstanceState)
         //onSave instance
         Timber.i("onRestoreInstanceState Called")
+        //To restore the data set on onRestore
     }
 
     /** Lifecycle Methods **/
